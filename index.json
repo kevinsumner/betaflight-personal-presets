@@ -1,4 +1,6 @@
 {
+  "majorVersion": 1,
+  "minorVersion": 0,
   "settings": {
     "MetapropertyDirective": "#$",
     "PresetCategories": {
@@ -14,6 +16,19 @@
       "BNF": "BNF",
       "OTHER": "OTHER"
     },
+    "PresetCategoriesPriorities": {
+      "TUNE": 1000000000000,
+      "RATES": 10000,
+      "OSD": 0,
+      "VTX": 1000000,
+      "LEDS": 0,
+      "MODES": 0,
+      "RC_SMOOTHING": 100000000,
+      "FILTERS": 100,
+      "RC_LINK": 10000000000,
+      "BNF": 0,
+      "OTHER": 0
+    },
     "MetadataTypes": {
       "STRING": "STRING",
       "STRING_ARRAY": "STRING_ARRAY",
@@ -22,14 +37,17 @@
       "BOOLEAN": "BOOLEAN",
       "WORDS_ARRAY": "WORDS_ARRAY",
       "FILE_PATH_ARRAY": "FILE_PATH_ARRAY",
-      "PRESET_STATUS": "PRESET_STATUS"
+      "PRESET_STATUS": "PRESET_STATUS",
+      "PRIORITY": "PRIORITY"
     },
     "OptionsDirectives": {
       "OPTION_DIRECTIVE": "option",
       "BEGIN_OPTION_DIRECTIVE": "option begin",
       "END_OPTION_DIRECTIVE": "option end",
       "OPTION_CHECKED": "(checked)",
-      "OPTION_UNCHECKED": "(unchecked)"
+      "OPTION_UNCHECKED": "(unchecked)",
+      "BEGIN_OPTION_GROUP_DIRECTIVE": "option_group begin",
+      "END_OPTION_GROUP_DIRECTIVE": "option_group end"
     },
     "PresetStatusEnum": [
       "OFFICIAL",
@@ -94,6 +112,14 @@
       "include_disclaimer": {
         "type": "FILE_PATH_ARRAY",
         "optional": true
+      },
+      "priority": {
+        "type": "PRIORITY",
+        "optional": true
+      },
+      "force_options_review": {
+        "type": "BOOLEAN",
+        "optional": true
       }
     }
   },
@@ -115,8 +141,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/kevinsumner.txt",
-      "hash": "19d2ba4cd303871696658108f396d036e8024bf62c5d07b0cadbac1e13f2f7f5",
-      "options": [],
+      "hash": "9d14f74c73bedfee298d0cd3289c01cb5730bcc9c010c50a2f85eb0ee9db0470",
       "title": "Kevin Sumner's 4.3 OSD settings",
       "firmware_version": [
         "4.3"
@@ -128,14 +153,11 @@
         "OSD"
       ],
       "author": "Kevin Sumner",
-      "description": [
-        "OSD config Kevin Sumner uses with Betaflight 4.3"
-      ]
+      "priority": 0
     },
     {
       "fullPath": "presets/4.3/rates/kevinsumner.txt",
       "hash": "99cb2b5fc93893b9a28f4cc1c12dd01fbd48b72058f15fba993cc62dd5fa9395",
-      "options": [],
       "title": "Kevin Sumner's 4.3 rates profiles",
       "firmware_version": [
         "4.3"
@@ -147,9 +169,7 @@
         "OSD"
       ],
       "author": "Kevin Sumner",
-      "description": [
-        "Rates profiles Kevin Sumner uses with Betaflight 4.3"
-      ]
+      "priority": 0
     }
   ]
 }
