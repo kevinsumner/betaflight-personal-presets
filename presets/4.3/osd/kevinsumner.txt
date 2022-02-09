@@ -130,7 +130,6 @@ set osd_profile_1_name = Free
 set osd_profile_2_name = Race
 set osd_profile_3_name = Long
 set osd_gps_sats_show_hdop = OFF
-set osd_displayport_device = MSP
 set osd_rcchannels = -1,-1,-1,-1
 set osd_camera_frame_width = 24
 set osd_camera_frame_height = 11
