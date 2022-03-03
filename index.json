@@ -38,7 +38,8 @@
       "WORDS_ARRAY": "WORDS_ARRAY",
       "FILE_PATH_ARRAY": "FILE_PATH_ARRAY",
       "PRESET_STATUS": "PRESET_STATUS",
-      "PRIORITY": "PRIORITY"
+      "PRIORITY": "PRIORITY",
+      "PARSER": "PARSER"
     },
     "OptionsDirectives": {
       "OPTION_DIRECTIVE": "option",
@@ -53,6 +54,10 @@
       "OFFICIAL",
       "COMMUNITY",
       "EXPERIMENTAL"
+    ],
+    "ParserEnum": [
+      "TEXT",
+      "MARKED"
     ],
     "presetsDir": "presets",
     "presetsFileEncoding": "utf-8",
@@ -120,6 +125,10 @@
       "force_options_review": {
         "type": "BOOLEAN",
         "optional": true
+      },
+      "parser": {
+        "type": "PARSER",
+        "optional": true
       }
     }
   },
@@ -141,7 +150,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/kevinsumner.txt",
-      "hash": "9d14f74c73bedfee298d0cd3289c01cb5730bcc9c010c50a2f85eb0ee9db0470",
+      "hash": "4d89207adcddec66d37a17a9786cdd860f9f1ca61e50d854b740c5c6ea8b341d",
       "title": "Kevin Sumner's 4.3 OSD settings",
       "firmware_version": [
         "4.3"

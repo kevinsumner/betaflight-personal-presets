@@ -6,6 +6,7 @@
 #$ AUTHOR: Kevin Sumner
 #$ DESCRIPTION: OSD config Kevin Sumner uses with Betaflight 4.3
 
+set display_name = flopover
 set osd_units = IMPERIAL
 set osd_warn_arming_disable = ON
 set osd_warn_batt_not_full = OFF
@@ -60,7 +61,7 @@ set osd_current_pos = 234
 set osd_mah_drawn_pos = 10632
 set osd_motor_diag_pos = 234
 set osd_craft_name_pos = 14337
-set osd_display_name_pos = 234
+set osd_display_name_pos = 14369
 set osd_gps_speed_pos = 234
 set osd_gps_lon_pos = 234
 set osd_gps_lat_pos = 234
