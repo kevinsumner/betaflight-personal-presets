@@ -10,7 +10,6 @@
       "VTX": "VTX",
       "LEDS": "LEDS",
       "MODES": "MODES",
-      "RC_SMOOTHING": "RC_SMOOTHING",
       "FILTERS": "FILTERS",
       "RC_LINK": "RC_LINK",
       "BNF": "BNF",
@@ -150,7 +149,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/kevinsumner.txt",
-      "hash": "4d89207adcddec66d37a17a9786cdd860f9f1ca61e50d854b740c5c6ea8b341d",
+      "hash": "e6fbbc853e253797ca4df8bca40e9eec70291c0b455ef4e8a2c9b57b12eda9f4",
       "title": "Kevin Sumner's 4.3 OSD settings",
       "firmware_version": [
         "4.3"
