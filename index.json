@@ -149,7 +149,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/kevinsumner.txt",
-      "hash": "e6fbbc853e253797ca4df8bca40e9eec70291c0b455ef4e8a2c9b57b12eda9f4",
+      "hash": "17578937942adb2fbf460f0673957478dc7c1b7288cb3f880ebb124fce025751",
       "title": "Kevin Sumner's 4.3 OSD settings",
       "firmware_version": [
         "4.3"
