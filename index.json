@@ -133,7 +133,8 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3"
+      "4.3",
+      "4.4"
     ],
     "category": [
       "OSD"
@@ -164,11 +165,28 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/kevinsumner.txt",
-      "hash": "99cb2b5fc93893b9a28f4cc1c12dd01fbd48b72058f15fba993cc62dd5fa9395",
-      "title": "Kevin Sumner's 4.3 rates profiles",
+      "fullPath": "presets/4.4/osd/kevinsumner-hd.txt",
+      "hash": "a6045f244826617a1e3d77022206ae9d78c6ddf24c15320c227662dfaebb0696",
+      "title": "Kevin Sumner's 4.4 HD OSD settings",
       "firmware_version": [
-        "4.3"
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "OSD"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/kevinsumner.txt",
+      "hash": "56cda6ddcd0d5c89fc27c253039f2f2c7d446faa2cbd40905fde54969c9ef8d7",
+      "title": "Kevin Sumner's rates profiles",
+      "firmware_version": [
+        "4.3",
+        "4.4"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
