@@ -9,6 +9,7 @@
 #$ DESCRIPTION: HD OSD config Kevin Sumner uses with Betaflight 4.4
 
 feature OSD
+set vcd_video_system = HD
 set osd_units = IMPERIAL
 set osd_warn_bitmask = 24575
 set osd_rssi_alarm = 20
