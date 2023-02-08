@@ -1,7 +1,8 @@
 # vim: nospell
 
-#$ TITLE: Kevin Sumner's 4.3 rates profiles
+#$ TITLE: Kevin Sumner's rates profiles
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: kevinsumner, OSD
