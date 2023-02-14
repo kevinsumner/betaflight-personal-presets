@@ -166,8 +166,24 @@
     },
     {
       "fullPath": "presets/4.4/osd/kevinsumner-hd.txt",
-      "hash": "a6045f244826617a1e3d77022206ae9d78c6ddf24c15320c227662dfaebb0696",
+      "hash": "d138ca6b7a24baae92db5cba567ab017ee9b28fdb7fc067aa8417d1ff2f1f7f2",
       "title": "Kevin Sumner's 4.4 HD OSD settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "OSD"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/kevinsumner-ntsc.txt",
+      "hash": "4ba3476f67629188d665791b613b210785d4e4333a0316a078e988315e8201c9",
+      "title": "Kevin Sumner's 4.4 NTSC OSD settings",
       "firmware_version": [
         "4.4"
       ],

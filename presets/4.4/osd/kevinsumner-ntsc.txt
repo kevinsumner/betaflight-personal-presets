@@ -1,0 +1,40 @@
+# vim: nospell
+
+#$ TITLE: Kevin Sumner's 4.4 NTSC OSD settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: kevinsumner, OSD
+#$ AUTHOR: Kevin Sumner
+#$ DESCRIPTION: NTSC OSD config that Kevin Sumner uses with Betaflight 4.4
+
+feature OSD
+set vcd_video_system = NTSC
+set osd_units = IMPERIAL
+set osd_warn_bitmask = 24575
+set osd_alt_alarm = 250
+set osd_tim1 = 2561
+set osd_tim2 = 2560
+set osd_vbat_pos = 239
+set osd_rssi_pos = 2368
+set osd_link_quality_pos = 6432
+set osd_tim_1_pos = 2456
+set osd_throttle_pos = 2400
+set osd_current_pos = 2423
+set osd_mah_drawn_pos = 2392
+set osd_craft_name_pos = 2048
+set osd_pilot_name_pos = 2080
+set osd_altitude_pos = 16672
+set osd_power_pos = 224
+set osd_warnings_pos = 14697
+set osd_avg_cell_voltage_pos = 6456
+set osd_disarmed_pos = 14731
+set osd_flip_arrow_pos = 14543
+set osd_rate_profile_name_pos = 2072
+set osd_profile_name_pos = 56
+set osd_stat_bitmask = 2308014
+set osd_profile_1_name = Fat
+set osd_profile_2_name = Thin
+set osd_profile_3_name = Focus
+set osd_canvas_width = 30
+set osd_canvas_height = 13
