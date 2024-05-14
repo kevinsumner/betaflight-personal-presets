@@ -1,0 +1,49 @@
+# vim: nospell
+
+#$ TITLE: Kevin Sumner's Mode settings (2024-05-14)
+#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: Modes
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: kevinsumner, modes
+#$ AUTHOR: Kevin Sumner
+
+#$ DESCRIPTION: Mode config Kevin Sumner created 2024-05-14
+#$ DESCRIPTION:
+#$ DESCRIPTION: AUX 1:
+#$ DESCRIPTION:   - 1800-2100 (+100) Arm
+#$ DESCRIPTION:   - 1800-2100 (+100) Stick Commands Disable
+#$ DESCRIPTION: AUX 2:
+#$ DESCRIPTION:   - 1850-1950 (+80) Angle
+#$ DESCRIPTION:   - 1750-1850 (+60) Horizon
+#$ DESCRIPTION: AUX 3:
+#$ DESCRIPTION:   - 1050-1150 (-80) Failsafe
+#$ DESCRIPTION:   - 1150-1250 (-60) Flip over after crash
+#$ DESCRIPTION:   - 1250-1350 (-40) VTX Pit Mode
+#$ DESCRIPTION:   - 1350-1450 (-20) Paralyze
+#$ DESCRIPTION:   - 1550-1650 (+20) Launch Control
+#$ DESCRIPTION: AUX 4:
+#$ DESCRIPTION:   - 1050-1150 (-80) Beeper
+#$ DESCRIPTION:   - 1150-1250 (-60) Beeper Mute
+#$ DESCRIPTION: AUX 8:
+#$ DESCRIPTION:   - Adjustment: OSD Profile
+
+
+
+# aux
+aux 0 0 0 1800 2100 0 0
+aux 1 1 1 1850 1950 0 0
+aux 2 2 1 1750 1850 0 0
+aux 3 27 2 1050 1150 0 0
+aux 4 13 3 1050 1150 0 0
+aux 5 35 2 1150 1250 0 0
+aux 6 39 2 1250 1350 0 0
+aux 7 45 2 1350 1450 0 0
+aux 8 49 2 1550 1650 0 0
+aux 9 51 0 1800 2100 0 0
+aux 10 52 3 1150 1250 0 0
+
+# adjrange
+adjrange 0 0 7 900 2100 29 7 0 0
+

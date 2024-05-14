@@ -233,6 +233,24 @@
       ],
       "author": "Kevin Sumner",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/modes/kevinsumner-modes-2024-05-14.txt",
+      "hash": "6523906674c3df99b391778804dd81ec0e78a787afaea4304fe3836cc4cbe528",
+      "title": "Kevin Sumner's Mode settings (2024-05-14)",
+      "firmware_version": [
+        "4.5",
+        "4.4",
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "modes"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
     }
   ]
 }
