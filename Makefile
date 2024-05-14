@@ -15,6 +15,9 @@ INDEX_OUTPUTS := \
 all: $(INDEX_OUTPUTS)
 
 clean:
+	rm $(INDEX_OUTPUTS)
+
+dist-clean:
 	rm $(INDEXER_FILES) $(INDEX_OUTPUTS)
 
 $(INDEX_OUTPUTS): indexer $(INDEXER_FILES) $(PRESETS)
