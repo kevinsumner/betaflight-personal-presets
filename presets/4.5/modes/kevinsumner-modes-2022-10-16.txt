@@ -1,0 +1,52 @@
+# vim: nospell
+
+#$ TITLE: Kevin Sumner's Mode settings (2022-10-16)
+#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: Modes
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: kevinsumner, modes
+#$ AUTHOR: Kevin Sumner
+#$ DESCRIPTION: Mode config Kevin Sumner created 2022-10-16
+
+# OpenTX channels should start with a line with MAX with a weight
+# of 2%. Also, the switch channels should be adjusted to a range
+# of 1000 µs to 2000 µs with a midpoint of 1500 µs in OpenTX.
+# Mode 0/ARM; OpenTX offset: 40%
+# BF aux channel: 0; BF position width: 250 µs
+aux 0 0 0 1775 2025 0 0
+# Mode 1/ANGLE; OpenTX offset: 40%
+# BF aux channel: 1; BF position width: 250 µs
+aux 1 1 1 1775 2025 0 0
+# Mode 2/HORIZON; OpenTX offset: 40%
+# BF aux channel: 2; BF position width: 250 µs
+aux 2 2 2 1775 2025 0 0
+# Mode 13/BEEPERON; OpenTX offset: 40%
+# BF aux channel: 3; BF position width: 250 µs
+aux 3 13 3 1775 2025 0 0
+# Mode 27/FAILSAFE; OpenTX offset: 40%
+# BF aux channel: 4; BF position width: 250 µs
+aux 4 27 4 1775 2025 0 0
+# Mode 28/AIRMODE; OpenTX offset: 40%
+# BF aux channel: 5; BF position width: 250 µs
+aux 5 28 5 1775 2025 0 0
+# Mode 35/FLIP OVER AFTER CRASH; OpenTX offset: 40%
+# BF aux channel: 6; BF position width: 250 µs
+aux 6 35 6 1775 2025 0 0
+# Mode 39/VTX PIT MODE; OpenTX offset: 40%
+# BF aux channel: 7; BF position width: 250 µs
+aux 7 39 7 1775 2025 0 0
+# Clearing unused aux mode ranges
+aux 8 0 0 900 900 0 0
+aux 9 0 0 900 900 0 0
+aux 10 0 0 900 900 0 0
+aux 11 0 0 900 900 0 0
+aux 12 0 0 900 900 0 0
+aux 13 0 0 900 900 0 0
+aux 14 0 0 900 900 0 0
+aux 15 0 0 900 900 0 0
+aux 16 0 0 900 900 0 0
+aux 17 0 0 900 900 0 0
+aux 18 0 0 900 900 0 0
+aux 19 0 0 900 900 0 0

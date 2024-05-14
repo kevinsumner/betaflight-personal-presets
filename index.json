@@ -134,9 +134,11 @@
   "uniqueValues": {
     "firmware_version": [
       "4.3",
-      "4.4"
+      "4.4",
+      "4.5"
     ],
     "category": [
+      "MODES",
       "OSD"
     ],
     "author": [
@@ -144,6 +146,7 @@
     ],
     "keywords": [
       "kevinsumner",
+      "modes",
       "OSD"
     ]
   },
@@ -209,6 +212,24 @@
       "keywords": [
         "kevinsumner",
         "OSD"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/modes/kevinsumner-modes-2022-10-16.txt",
+      "hash": "a55487d8a9acc2843028c17cda3f462d18e145026fbf30c378deba33adcfae45",
+      "title": "Kevin Sumner's Mode settings (2022-10-16)",
+      "firmware_version": [
+        "4.5",
+        "4.4",
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "modes"
       ],
       "author": "Kevin Sumner",
       "priority": 0
