@@ -1,12 +1,13 @@
 # vim: nospell
 
-#$ TITLE: Kevin Sumner's 4.4 NTSC OSD settings
+#$ TITLE: Kevin Sumner's 4.5 NTSC OSD settings
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: kevinsumner, OSD
 #$ AUTHOR: Kevin Sumner
-#$ DESCRIPTION: NTSC OSD config that Kevin Sumner uses with Betaflight 4.4
+#$ DESCRIPTION: NTSC OSD config that Kevin Sumner uses with Betaflight 4.4 through 4.5
 
 feature OSD
 set vcd_video_system = NTSC

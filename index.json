@@ -184,22 +184,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/kevinsumner-ntsc.txt",
-      "hash": "4ba3476f67629188d665791b613b210785d4e4333a0316a078e988315e8201c9",
-      "title": "Kevin Sumner's 4.4 NTSC OSD settings",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "kevinsumner",
-        "OSD"
-      ],
-      "author": "Kevin Sumner",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.5/modes/kevinsumner-modes-2022-10-16.txt",
       "hash": "a55487d8a9acc2843028c17cda3f462d18e145026fbf30c378deba33adcfae45",
       "title": "Kevin Sumner's Mode settings (2022-10-16)",
@@ -240,6 +224,23 @@
       "hash": "a064a6f6b0b1e33f180bd05247b2681e1d604b246329a43c946c90ef2fe4c181",
       "title": "Kevin Sumner's 4.5 HD OSD settings",
       "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "OSD"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/kevinsumner-ntsc.txt",
+      "hash": "037ba6d2e8a6d4cf89bebca464f10bb66f1890fc96c719bc15696723cb524d29",
+      "title": "Kevin Sumner's 4.5 NTSC OSD settings",
+      "firmware_version": [
+        "4.4",
         "4.5"
       ],
       "category": "OSD",
