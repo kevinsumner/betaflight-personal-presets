@@ -200,23 +200,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/rates/kevinsumner.txt",
-      "hash": "56cda6ddcd0d5c89fc27c253039f2f2c7d446faa2cbd40905fde54969c9ef8d7",
-      "title": "Kevin Sumner's rates profiles",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "kevinsumner",
-        "OSD"
-      ],
-      "author": "Kevin Sumner",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.5/modes/kevinsumner-modes-2022-10-16.txt",
       "hash": "a55487d8a9acc2843028c17cda3f462d18e145026fbf30c378deba33adcfae45",
       "title": "Kevin Sumner's Mode settings (2022-10-16)",
@@ -248,6 +231,40 @@
       "keywords": [
         "kevinsumner",
         "modes"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/kevinsumner-hd.txt",
+      "hash": "a064a6f6b0b1e33f180bd05247b2681e1d604b246329a43c946c90ef2fe4c181",
+      "title": "Kevin Sumner's 4.5 HD OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "OSD"
+      ],
+      "author": "Kevin Sumner",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/rates/kevinsumner.txt",
+      "hash": "543d1da2b9e4be22f2f3be820a2a904576a125d9cea13a431f1057b8014bee31",
+      "title": "Kevin Sumner's rates profiles",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "kevinsumner",
+        "OSD"
       ],
       "author": "Kevin Sumner",
       "priority": 0

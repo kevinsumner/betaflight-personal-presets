@@ -3,11 +3,12 @@
 #$ TITLE: Kevin Sumner's rates profiles
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: kevinsumner, OSD
 #$ AUTHOR: Kevin Sumner
-#$ DESCRIPTION: Rates profiles Kevin Sumner uses with Betaflight 4.3
+#$ DESCRIPTION: Rates profiles Kevin Sumner uses with Betaflight 4.3 through 4.5
 
 rateprofile 0
 
