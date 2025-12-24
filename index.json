@@ -47,7 +47,8 @@
       "OPTION_CHECKED": "(checked)",
       "OPTION_UNCHECKED": "(unchecked)",
       "BEGIN_OPTION_GROUP_DIRECTIVE": "option_group begin",
-      "END_OPTION_GROUP_DIRECTIVE": "option_group end"
+      "END_OPTION_GROUP_DIRECTIVE": "option_group end",
+      "EXCLUSIVE_OPTION_GROUP": "(exclusive)"
     },
     "PresetStatusEnum": [
       "OFFICIAL",
@@ -221,7 +222,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/kevinsumner-hd.txt",
-      "hash": "a064a6f6b0b1e33f180bd05247b2681e1d604b246329a43c946c90ef2fe4c181",
+      "hash": "f47a9533c254da9fd084f2ff5f5688e9fb6f6b6625be2bb64cde160902d3ee6e",
       "title": "Kevin Sumner's 4.5 HD OSD settings",
       "firmware_version": [
         "4.5"
